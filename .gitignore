@@ -1,0 +1,11 @@
+/# Ignore build output folders
+/bin/
+/bin/**
+
+/obj/
+/obj/**
+
+# Also ignore `bin` and `obj` folders at any depth
+**/bin/
+**/obj/
+
