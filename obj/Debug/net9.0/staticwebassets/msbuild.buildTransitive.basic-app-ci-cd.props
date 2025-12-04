@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/basic-app-ci-cd.props" />
+</Project>

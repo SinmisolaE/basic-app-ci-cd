@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "shrTjv7wJ/lNNNC2HhyzPfJRIsO7a3hik2fGnR52hPI=",
+  "Source": "basic-app-ci-cd",
+  "BasePath": "_content/basic-app-ci-cd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/basic-app-ci-cd.props" />
+</Project>
