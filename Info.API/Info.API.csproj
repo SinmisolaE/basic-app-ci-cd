@@ -4,7 +4,6 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>basic_app_ci_cd</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
