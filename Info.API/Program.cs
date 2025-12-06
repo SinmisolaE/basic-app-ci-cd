@@ -14,17 +14,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var date = DateTime.UtcNow;
-var luckyNumber = Random.Shared.Next(0, 100);
 var githubUrl = "https://github.com/SinmisolaE/basic-app-ci-cd";
-
 
 app.MapGet("/info", () =>
 {
     return new
     {
-        Date = date,
-        LuckyNumber = luckyNumber,
+        Date = DateTime.UtcNow,
+        LuckyNumber = Random.Shared.Next(0, 100),
         GithubUrl = githubUrl
     };
 });
