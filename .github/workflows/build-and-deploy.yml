@@ -2,9 +2,9 @@ name: Basic Info CI
 
 on:
   workflow_dispatch:
-    push:
-      branches:
-        - main
+  push:
+    branches:
+      - main
 
 env:
   AZURE_WEBAPP_NAME: basic-info-app
@@ -39,7 +39,7 @@ jobs:
       - name: Publish
         run: dotnet publish ${{ env.SOLUTION_PATH }} --configuration Release --no-restore --no-build --property:PublishDir=${{ env.PUBLISH_DIR }}
 
-      - name: Publish Aritfacts
+      - name: Publish Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: webapp
